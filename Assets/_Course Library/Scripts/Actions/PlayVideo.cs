@@ -128,8 +128,7 @@ public class PlayVideo : MonoBehaviour
     }
 
     private void OnValidate()
-    {
-            
+    {    
         if (TryGetComponent(out VideoPlayer videoPlayer))
             videoPlayer.targetMaterialProperty = "_BaseMap";
     }
